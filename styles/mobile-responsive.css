@@ -1,0 +1,8 @@
+@media screen and (max-width:426px) {
+    nav,.nav-links ul{
+        flex-direction: column;
+    }
+    nav{
+        box-shadow: none;
+    }
+}
