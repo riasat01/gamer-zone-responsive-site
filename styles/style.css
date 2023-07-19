@@ -306,3 +306,83 @@ nav {
     font-weight: 600;
     text-transform: uppercase;
 }
+
+/* game list styles */
+
+.game-list-container {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.game-list-card {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 2.75rem;
+    border-radius: 3rem;
+    background-color: white;
+
+}
+
+.game-list-card:hover {
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    border: 2px solid #FF42A5;
+    padding: 0.4rem;
+}
+
+/* footer styles */
+
+.footer-container {
+    padding: 10%;
+    background-color: #0B0223;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.footer-container h1 {
+    color: white;
+}
+
+.footer-nav ul,
+.footer-links ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.footer-icons {
+    margin: 1.5rem 0;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.footer-links ul{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1rem;
+    font-weight: 500;
+    gap: 2rem;
+}
+
+.copyright{
+    margin: 2.5rem;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1rem;
+    font-weight: 500;
+
+}
