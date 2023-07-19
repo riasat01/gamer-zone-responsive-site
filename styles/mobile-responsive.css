@@ -100,13 +100,15 @@
         line-height: 1.74rem;
         padding: 1rem 0 2rem 0;
     }
-
+    
     .video-card p {
         padding: 2rem 0;
         font-size: 0.7rem;
         text-align: center;
     }
-
+    .video-watch{
+        height: 100%;
+    }
     .play-container {
         gap: 3rem;
     }
