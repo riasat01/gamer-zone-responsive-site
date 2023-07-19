@@ -20,6 +20,13 @@ body {
     margin: 1.5rem 0.6rem 0 0;
 }
 
+.gradient-text {
+    color: transparent;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
 /* shared styles ended */
 /* nav styles started */
 nav {
@@ -79,7 +86,8 @@ nav {
     gap: 4rem;
 }
 
-.goat-content,.goat-img {
+.goat-content,
+.goat-img {
     width: calc(50% - 2rem);
     padding-right: 10%;
 }
@@ -102,10 +110,6 @@ nav {
 .goat-content h1 {
     font-size: 6rem;
     font-weight: 800;
-    color: transparent;
-    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
 }
 
 .goat-description {
@@ -114,12 +118,191 @@ nav {
     font-weight: 500;
     margin-top: 1rem;
 }
-.tomato-btn{
+
+.tomato-btn {
     background-color: #FF42A5;
 }
-.blue-btn{
+
+.blue-btn {
     background-color: #4EC5F7;
 }
+
 .goat-img img {
     width: 100%;
+}
+
+/* games styles */
+
+.games-container {
+    padding: 3.5rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: right;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    padding: 0 10%;
+}
+
+.games-img {
+    width: 65vw
+}
+
+.games-img img {
+    width: 100%;
+}
+
+.games-content {
+    width: 45vw;
+}
+
+.games-content h2 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.games-content p {
+    color: #534C64;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.gamer-btn {
+    margin: 1.5rem 0;
+}
+
+.games-content h3 {
+    color: #534C64;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 2.8rem;
+}
+
+/* video styles */
+
+.video-container {
+    margin: 7.5rem 0;
+    padding: 3.5rem 0;
+    text-align: center;
+}
+
+.video-container h2 {
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.video-content-subtile {
+    color: #534C64;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.74rem;
+    padding: 1rem 0 2rem 0;
+}
+
+.video-card-container {
+    margin: 0 10%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.video-card {
+    text-align: left;
+    width: calc(100% - 10px);
+}
+
+.video-card img {
+    width: 100%;
+}
+
+/* .video-card:hover {
+    border-radius: 16px;
+    height: 400px;
+    width: 342px;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+    background-blend-mode: overlay;
+} */
+
+/* play styles */
+
+.play-container {
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12.5rem;
+}
+
+.play-content {
+    text-align: right;
+}
+
+.play-content h2 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.play-img {
+    position: relative;
+}
+
+.play-img .relative-img {
+    position: absolute;
+    top: 23rem;
+    left: -10rem;
+}
+
+/* career styles */
+.career-container {
+    margin: 10rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10% 7%;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    color: white;
+}
+
+.career-img {
+    background-image: url('../images/Group 14.png');
+    background-size: contain;
+}
+
+.career-content h2 {
+    margin: 1rem 0;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.career-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.career-list ul {
+    list-style: none;
+    margin-top: 2rem;
+}
+
+.career-list .right-list {
+    margin-right: 1rem;
+    text-align: right;
+}
+
+.career-content,
+.career-img {
+    width: 50%;
+}
+
+.career-img img {
+    width: 100%;
+}
+
+.career-btn {
+    color: #FF42A5;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
 }

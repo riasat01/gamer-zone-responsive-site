@@ -1,15 +1,20 @@
 @media screen and (max-width:426px) {
 
     nav,
-    .nav-links ul {
+    .nav-links ul,
+    .games-container,
+    .play-container,
+    .career-container {
         flex-direction: column;
     }
 
+    /* nav responsive */
     nav {
         box-shadow: none;
         margin-top: 6rem;
     }
 
+    /* goat responsive */
     .goat-container {
         flex-direction: column-reverse;
         margin-top: 5rem;
@@ -21,18 +26,23 @@
         width: 80vw;
         margin: 0 auto;
     }
-    .goat-content{
+
+    .goat-content {
         padding: 3rem 2rem;
     }
-    .goat-content h2{
+
+    .goat-content h2 {
         font-size: 2rem;
     }
+
     .goat-content h1 {
         font-size: 4rem;
     }
-    .goat-btns{
+
+    .goat-btns {
         display: flex;
     }
+
     .btn {
         padding: 0.8rem 1.5rem;
         gap: 0.4rem;
@@ -40,5 +50,110 @@
         border-radius: 2rem;
         border: none;
         margin: 1.5rem 0.6rem 0 0;
+    }
+
+    /* gamer responsive */
+    .games-img,
+    .games-content {
+        width: 80vw
+    }
+
+    .games-content {
+        text-align: center;
+    }
+
+    .games-content h2 {
+        margin: 2rem 0;
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+
+    .games-content p {
+        font-size: 0.8rem;
+        line-height: 30px;
+    }
+
+    .games-content h3 {
+        font-size: 1rem;
+    }
+
+    .gamer-btn {
+        margin: 1.5rem 0 3rem 0;
+    }
+
+    .video-container {
+        margin: 2rem 0 0;
+    }
+
+    .video-card-container {
+        grid-template-columns: 1fr;
+    }
+
+    .video-container h2 {
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
+    .video-content-subtile {
+        font-size: 0.8rem;
+        font-weight: 400;
+        line-height: 1.74rem;
+        padding: 1rem 0 2rem 0;
+    }
+
+    .video-card p {
+        padding: 2rem 0;
+        font-size: 0.7rem;
+        text-align: center;
+    }
+
+    .play-container {
+        gap: 3rem;
+    }
+
+    .play-content {
+        text-align: center;
+        padding: 2rem 0;
+    }
+
+    .play-img {
+        width: 100%;
+        margin: auto;
+    }
+
+    .play-img .absolute-img {
+        width: 90%;
+        margin-left: 10%;
+    }
+
+    .play-img .relative-img {
+        width: 50%;
+        position: absolute;
+        top: 14rem;
+        left: -5rem;
+        padding-left: 20%;
+    }
+    .career-container{
+        padding: 0;
+        margin: 3rem 0;
+    }
+    .career-content{
+        width: 100%;
+        padding: 10% 10%;
+    }
+    .career-img {
+        width: 100%;
+    }
+    .career-list .right-list {
+        margin-right: 0;
+    }
+    .career-content p,li{
+        font-size: 0.7rem;
+    }
+    .career-btn {
+        color: #FF42A5;
+        font-size: 0.7rem;
+        font-weight: 600;
+        text-transform: uppercase;
     }
 }
