@@ -1,0 +1,40 @@
+@media screen and (min-width:426px) and (max-width:769px) {
+
+    nav,
+    .goat-container,
+    .games-container,
+    .play-container {
+        flex-direction: column;
+    }
+
+    .goat-content,
+    .goat-img,
+    .games-img,
+    .games-content,
+    .play-content {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    nav{
+        padding-bottom: 0.4rem;
+    }
+    .play-img {
+        width: 90%;
+        margin-right: -20%;
+    }
+
+    .play-img img {
+        width: 100%;
+    }
+
+    .play-img .relative-img {
+        width: 40%;
+        top: 24rem;
+        left: -6.5rem;
+    }
+    .career-btn {
+        font-size: 0.7rem;
+        padding: 0.7rem 1.5rem;
+    }
+}
